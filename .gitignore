@@ -1,8 +1,10 @@
-@'
-data/raw/
+﻿data/raw/
+data/processed/api_cache/
+
+.env
+venv/
+.venv/
+
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-'@ | Set-Content .gitignore
-.env/
-venv/
